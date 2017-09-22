@@ -2,7 +2,7 @@ import pandas as pd
 import bendix_function as bf
 
 # Initialize the webdriver.
-driver = bf.init_driver("C:\\Users\\DuciMaka\\Desktop\\chromedriver\\chromedriver.exe")
+driver = bf.init_driver(path) #To do
 # Go to https://www.bendix.com.au/catalogue?manufacturer=&odmeloepart=&part==&variant=&oepart=&part=
 bf.navigate_to_website(driver, "https://www.bendix.com.au/catalogue?manufacturer=&odmeloepart=&part==&variant=&oepart=&part=")
 search_car = "BMW"
